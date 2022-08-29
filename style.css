@@ -2216,10 +2216,10 @@ body.home-eight .full-width-header .toolbar-area {
   background: #000;
 }
 body.home-eight .full-width-header .toolbar-area .toolbar-contact ul li {
-  border-color: #052887;
+  border-color: #000;
 }
 body.home-eight .full-width-header .toolbar-area .toolbar-sl-share ul li.opening {
-  border-color: #052887;
+  border-color: #000;
 }
 body.home-eight .full-width-header .right_menu_togle .canvas-contact .contact li i {
   color: #000;
@@ -3356,7 +3356,6 @@ input[type=range]::-ms-fill-upper {
   display: inline-block;
   margin-right: 20px;
   padding: 13px 20px 11px 0;
-  border-right: 1px solid #1273eb;
   color: #fff;
   font-size: 14px;
 }
@@ -3397,7 +3396,6 @@ input[type=range]::-ms-fill-upper {
   color: #ffffff;
   margin-right: 20px;
   padding-right: 20px;
-  border-right: 1px solid #1273eb;
 }
 .full-width-header .toolbar-area .toolbar-sl-share ul li.opening i {
   margin-right: 5px;
