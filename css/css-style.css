@@ -3229,8 +3229,8 @@ h1, h2, h3, h4, h5, h6, .view-more, .read-more, .main-menu .navbar-collapse li a
       border-bottom: 1px solid #E8E8E9; } }
   .service-item .icon {
     margin-bottom: 30px;
-    width: 80px;
-    height: 80px;
+    /* width: 80px;
+    height: 80px; */
     background: white;
     line-height: 80px;
     border-radius: 50%;
@@ -4865,6 +4865,9 @@ h1, h2, h3, h4, h5, h6, .view-more, .read-more, .main-menu .navbar-collapse li a
       background: #212121;
       text-transform: uppercase; }
       @media only screen and (max-width: 480px) {
+        .footer-widget {
+          text-align: center;
+      }
         .subscribe-form form button {
           width: 100%; } }
   .subscribe-form .hand {
