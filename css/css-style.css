@@ -3224,6 +3224,7 @@ h1, h2, h3, h4, h5, h6, .view-more, .read-more, .main-menu .navbar-collapse li a
   transition: 0.5s;
   border-radius: 10px;
   border-right: 1px solid #E8E8E9; }
+
   @media only screen and (max-width: 1199px) {
     .service-item {
       border-bottom: 1px solid #E8E8E9; } }
@@ -4986,3 +4987,58 @@ h1, h2, h3, h4, h5, h6, .view-more, .read-more, .main-menu .navbar-collapse li a
       @media only screen and (max-width: 1199px) {
         .copyright-area .footer-menu li {
           margin-right: 25px; } }
+
+
+          .Cst1 .img-fluid{
+            width: 100%;
+          }
+.pricing-section ,
+.about-section1{
+  padding: 40px 0px !important;
+}
+.FixedIcon{
+  display: none;
+}
+@media only screen and (max-width: 800px){
+  .logo img{
+    max-width: 55px  !important;
+  }
+  .Cst1  .col-md-2 {
+    -ms-flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+  .Cst1 .img-fluid{
+    margin-bottom: 20px;
+  }
+  .pricing-section ,
+.about-section1{
+  padding: 20px 0px !important;
+}
+.FixedIcon{
+  display: block;
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  z-index: 99;
+  width: 60px;
+}
+.FixedIcon a{
+  display: block;
+}
+.FixedIcon a i{
+  font-size: 30px;
+  margin-right: 20px;
+  width: 60px;
+  height: 60px;
+  background: white;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  color: #ffad29;
+  display: block;
+  margin-bottom: 13px;
+  padding-top: 5px;
+  border: 2px solid #212121;
+  
+}
+}
