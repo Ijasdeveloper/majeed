@@ -5025,6 +5025,9 @@ h1, h2, h3, h4, h5, h6, .view-more, .read-more, .main-menu .navbar-collapse li a
 .FixedIcon a{
   display: block;
 }
+p{
+  text-transform: lowercase;
+}
 .FixedIcon a i{
   font-size: 30px;
   margin-right: 20px;
